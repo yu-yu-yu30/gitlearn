@@ -78,7 +78,7 @@ public:
     int exist_path_dfs(AGraph g,EdgeType i,EdgeType j);
     int exist_path_bfs(AGraph g,EdgeType i,EdgeType j);
     void find(AGraph g,EdgeType u,EdgeType v,vector<int>path);
-    void test();
+    //void test();
     //int get_edge_value(AGraph g,EdgeType x,EdgeType y);
     //bool set_edge_value(AGraph g,EdgeType x,EdgeType y,int v);
 };
